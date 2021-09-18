@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    width: 100%;
+  border-bottom: 1px solid rgb(201, 200, 200);
+  
+  position: sticky;
+
+}
+   
+.header_left
+{
+    display: flex;
+    align-items: center;
+    
+}
+.header_left img
+{
+margin-left: 230px;
+width: 100px;
+
+}
+.header_search
+{
+}
+.header_search input
+{
+    border:1px solid grey;
+  background-color: rgba(var(--b3f,250,250,250),1); ;
+    height: 30px;
+    width:200px;
+    padding-left: 70px;
+    margin-left: 50%;
+}
+._8-yf5
+{
+    margin-left: 22px;
+    cursor: pointer;
+    
+  
+    
+}
+.header_icons
+{
+margin-right: 330px;
+
+}
+
+div.mainbody
+{
+ width: 70%;
+ background-color: rgba(var(--b3f,250,250,250),1); 
+    
+}
+
+
+
+ section 
+{
+    position: relative;
+    
+ background-color: rgba(var(--b3f,250,250,250),1); 
+    
+
+}
+div.story
+{
+    height: 100px;
+    margin: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    margin-left: 26%;
+    margin-right: 45%;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    width: 60%;
+    overflow: hidden;
+    overflow-x: scroll;
+    
+
+}
+.story::-webkit-scrollbar
+{
+    display: none;
+}
+div.story_contents img
+{
+    flex-direction: row;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin: 10px;
+    padding-top: 0px;
+    border: solid 3px pink;
+    cursor: pointer;
+    
+  
+}
+div.story_contents h4{
+    flex-direction: row;
+    font-size: 12px;
+    line-height: 14px;
+   color: rgb(158, 157, 157);
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 100;
+    cursor: pointer;
+   
+
+}
+.posters
+{
+    border: 1px solid rgb(201, 200, 200);
+   margin-bottom: 50px;
+     margin-left:26%; 
+    margin-right: 45%;
+ margin-top: 0px; 
+ width: 60%;
+
+
+
+}
+.header_part{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+
+   
+}
+
+.header_part img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    
+
+
+}
+.header_part h4{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.header_midile img
+{
+    
+width:-webkit-fill-available;
+height: -webkit-fill-available;
+
+}
+.footer
+{
+    background-color: white;
+    height: 140px;
+    border-left:grey;
+    border-right: grey;
+    border-bottom: grey;
+    /* justify-content: space-between; */
+  
+    
+    
+}
+.header_icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_end
+{
+    display: flex;
+    text-align: center;
+    border: 1px;
+    border: 1px solid rgb(201, 200, 200);
+    height: 50px;
+    background-color: white;
+    
+}
+
+.footer h4{
+    padding: 10px;
+    color: grey;
+    text-align: center;
+}
+.footer span{
+    padding: 10px;
+    color: grey;
+}
+.sidebar
+{
+    width: 30%;
+   
+    background-color: rgba(var(--b3f,250,250,250),1); 
+    position: fixed;
+    right: 0;
+    
+}
+.suggestions
+{
+    display: flex;
+    margin-top:30px ;
+    
+
+
+}
+.suggestions img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.suggestions h5
+{
+    margin: 10px;
+    cursor: pointer;
+   
+    
+}
+.suggestions span
+{   
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #0095f6;
+    
+    
+}
+.uname h5
+{
+   margin-left: 60px;
+    margin-top: -40px;
+color: gray;
+    
+}
+.sug
+{
+
+ margin-top: -10px;
+margin-left: auto;
+color: rgba(var(--f52,142,142,142),1);
+font-weight: 600;
+}
+.see{
+    margin-left: 140px;
+    color: #262626;
+    font-weight: 600;
+    font-size: 14px;
+
+
+}
+.accounts
+{
+    display: flex;
+    margin-top:20px ;
+}
+.accounts img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    
+
+}
+.accounts h5{
+    color: #262626;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.accounts span{
+    margin-left: 160px;
+    margin-top: 10px;
+    color: #0095f6;
+    cursor: pointer;
+
+}
+.uname1 h5
+{
+    margin-left: 50px;
+    margin-top: -30px;
+color: gray;
+cursor: pointer;
+}
